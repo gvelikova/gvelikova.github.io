@@ -1,0 +1,26 @@
+# Personal / not part of the public site
+# Put drafts, notes, CV source files and anything private in local/ and it never gets committed.
+local/
+mockups/
+drafts/
+*.local.*
+notes.md
+TODO.md
+
+# Jekyll build output and caches
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Ruby tooling
+.bundle/
+vendor/
+Gemfile.lock
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

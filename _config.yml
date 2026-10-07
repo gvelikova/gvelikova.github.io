@@ -1,0 +1,33 @@
+# Everything identity-related lives here; index.md is content only.
+name: Gergana V. Velikova
+# One line: role + domain + scale/problem. Shown under your name and used as the search/social description.
+tagline: "Co-founder & Research Lead at Sophic Labs · Foundational AI & Scientific Computing"
+description: "Gergana V. Velikova: Co-founder and Research Lead at Sophic Labs. Research, publications, and selected work in AI and scientific computing."
+location: ""
+# Quote shown under the tagline. Set quote to "" to hide it.
+quote: "A system is rational if it does the “right thing,” given what it knows."
+quote_source: "Russell & Norvig, 2010"
+quote_url: "https://aima.cs.berkeley.edu/"
+url: "https://gvelikova.github.io"
+baseurl: ""
+lang: en-GB
+updated: 2026-10   # bump when you refresh the page
+
+# Profile links: leave a value empty ("") to hide it.
+# ORCID + Scholar matter most for grants (EIC, Horizon Europe) and academic discoverability.
+links:
+  email: ""            # e.g. you@domain.eu (left blank to protect privacy)
+  orcid: "0000-0001-5910-8604"
+  scholar: "txNXEWEAAAAJ"
+  github: gvelikova
+  linkedin: "gergana-v-velikova-phd-70575257"   # handle only
+  company: "https://sophiclabs.eu"
+  cv: ""               # e.g. /cv.pdf (left blank to protect privacy)
+
+# No theme: the custom layout in _layouts/ is the whole design.
+theme: null
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+exclude: [README.md, mockups, Gemfile, Gemfile.lock, vendor]
